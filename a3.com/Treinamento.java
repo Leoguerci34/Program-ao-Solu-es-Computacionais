@@ -79,4 +79,17 @@ public class Treinamento extends Funcionario {
     public void setPessoa(Pessoa pessoa){
         this.pessoa = pessoa;
     }
+    public trenamento calcularValidadeTreinamento(){
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(dataTreinamento);
+        cal.add(Calendar.DAY_OF_YEAR, validadeTreinamento);
+        return cal.getTime();
+    }
+    //metodos específicos
+    public String treinamentoInterno(){
+        return "Treinamento Interno";
+    }
+    public String treinamentoExterno(){
+        return "Treinamento Externo";
+    }
 }

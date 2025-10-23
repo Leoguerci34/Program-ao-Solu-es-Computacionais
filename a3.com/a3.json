@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    private String sistema = "a3.com";
+    private String versao = "1.0.0";
+    {
+        //configurações adicionais
+        private String autor = "Leandro Guerci Tavares";
+        private String site = "https://github.com/Leoguerci34/Program-ao-Solu-es-Computacionais.git";
+        private String email = "972311928@ulife.com.br";
+        private String email = "leoguerci34@gmail.com";
+       "version": "1.0.0",
+        "configurations": [
+        {
+            "type": "delegua",
+            "request": "launch",
+            "name": "Executar arquivo aberto",
+            "program": "${file}",
+            "stopOnEntry": false
+        ]
+        }
+    }
+}

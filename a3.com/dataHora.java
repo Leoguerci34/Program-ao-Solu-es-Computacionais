@@ -21,6 +21,9 @@ public class DataHora {
         this.segundo = segundo;
     }
 
+    public dataHora(){
+        String calendairo() = String.format("%02d/%02d/%04d %02d:%02d:%02d", dia, mes, ano, hora, minuto, segundo);
+    }
     //getters and setters
     public int getDia(){
         return dia;
